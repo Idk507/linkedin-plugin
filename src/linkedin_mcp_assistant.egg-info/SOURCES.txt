@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+src/linkedin_mcp/__init__.py
+src/linkedin_mcp/capabilities.py
+src/linkedin_mcp/server.py
+src/linkedin_mcp_assistant.egg-info/PKG-INFO
+src/linkedin_mcp_assistant.egg-info/SOURCES.txt
+src/linkedin_mcp_assistant.egg-info/dependency_links.txt
+src/linkedin_mcp_assistant.egg-info/requires.txt
+src/linkedin_mcp_assistant.egg-info/top_level.txt
+tests/test_capabilities.py

@@ -1,0 +1,5 @@
+{
+  "hooks": {
+    "SessionStart": [{"hooks": [{"type": "command", "command": "python ${PLUGIN_ROOT}/hooks/session_start.py", "command_windows": "python %PLUGIN_ROOT%\\hooks\\session_start.py", "statusMessage": "LinkedIn MCP safety context"}]}]
+  }
+}

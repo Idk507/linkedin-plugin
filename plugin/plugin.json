@@ -1,0 +1,12 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "linkedin-mcp-engineering",
+  "version": "0.2.0",
+  "description": "Local Codex engineering workflows for a personal LinkedIn MCP service with approval-first publishing.",
+  "skills": "./skills/",
+  "extensions": {
+    "com.openai": {
+      "hooks": "./hooks/hooks.json"
+    }
+  }
+}

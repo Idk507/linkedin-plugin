@@ -1,0 +1,6 @@
+{
+  "hooks": {
+    "SessionStart": [{"hooks": [{"type": "command", "command": "python scripts/codex_hooks/session_start.py", "command_windows": "python scripts\\codex_hooks\\session_start.py", "statusMessage": "Loading LinkedIn MCP gate status"}]}],
+    "PreToolUse": [{"matcher": "Bash|apply_patch|Edit|Write|mcp__.*linkedin.*", "hooks": [{"type": "command", "command": "python scripts/codex_hooks/pre_tool_guard.py", "command_windows": "python scripts\\codex_hooks\\pre_tool_guard.py", "statusMessage": "Checking high-risk actions"}]}]
+  }
+}

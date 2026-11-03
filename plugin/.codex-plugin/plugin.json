@@ -1,0 +1,7 @@
+{
+  "name": "linkedin-mcp-engineering",
+  "version": "0.2.0",
+  "description": "Local LinkedIn MCP development guidance",
+  "skills": "./skills/",
+  "hooks": "./hooks/hooks.json"
+}
